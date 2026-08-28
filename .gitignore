@@ -1,8 +1,51 @@
+# Python
 .venv/
+.venv-*/
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+config.local.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
 data/raw/
 data/processed/
 data/features/
+*.csv
+*.parquet
+*.h5
+*.pkl
+*.pickle
+
+# Logs & Cache
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
